@@ -111,9 +111,9 @@ func qaNewRunnableASTNode() dsl.RunnableASTNode {
 
 func qaNewEnvironment() *netemx.QAEnv {
 	// create the environment
-	env := netemx.NewQAEnv(netemx.QAEnvOptionHTTPServer(
+	env := netemx.MustNewQAEnv(netemx.QAEnvOptionHTTPServer(
 		qaWebServerAddress,
-		netemx.QAEnvDefaultHTTPHandler(),
+		netemx.ExampleWebPageHandlerFactory(),
 	))
 
 	// create the configuration of the uncensored DNS servers.
