@@ -1,4 +1,4 @@
-package golocatev2
+package geolocatev2
 
 import (
 	"context"
