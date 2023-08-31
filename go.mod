@@ -9,7 +9,8 @@ require (
 	github.com/google/go-cmp v0.5.9
 	github.com/google/gopacket v1.1.19
 	github.com/ooni/netem v0.0.0-20230824211724-219d252971fc
-	github.com/ooni/probe-engine v0.25.1-0.20230830064439-fcc06b12dd9a
+	github.com/ooni/probe-engine v0.25.1-0.20230831100042-f5314811b12c
+	github.com/pion/stun v0.6.1
 	github.com/quic-go/quic-go v0.33.0
 )
 
@@ -32,6 +33,9 @@ require (
 	github.com/ooni/oohttp v0.6.3 // indirect
 	github.com/ooni/probe-assets v0.18.0 // indirect
 	github.com/oschwald/maxminddb-golang v1.11.0 // indirect
+	github.com/pion/dtls/v2 v2.2.7 // indirect
+	github.com/pion/logging v0.2.2 // indirect
+	github.com/pion/transport/v2 v2.2.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/prometheus/client_golang v1.16.0 // indirect
 	github.com/prometheus/client_model v0.4.0 // indirect
